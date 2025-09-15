@@ -28,7 +28,7 @@ public sealed class IdentityProviderService(
         {
             logger.LogError(ex, "User registration failed");
 
-            return Result.Failure<string>(Error.Problem("Error.Error", ex.Message));
+            return Result.Failure<string>(Error.Conflict("Email.NotUnique", ex.Message));
         }
     }
 }
