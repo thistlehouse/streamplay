@@ -1,0 +1,69 @@
+# .NET / C#
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.resharper
+*.dotCover
+*.ncrunch*
+*.idea/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Visual Studio
+.vs/
+*.vscode/
+*.log
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.csproj.nuget.g.targets
+*.csproj.nuget.g.props
+
+# Docker
+docker-compose.override.yml
+*.env
+.docker/
+.dockerignore
+
+# WSL
+*.wslconfig
+
+# Logs
+*.log
+logs/
+
+# Database / Migrations
+*.mdf
+*.ldf
+*.sqlite
+*.db
+.migrations/
+
+# Keycloak / Identity
+.keycloak/
+*.jks
+*.p12
+*.pem
+*.containers/
+*.files/
+
+# Seq
+.seq/
+
+# User secrets
+secrets.json
+*.secret.json
+
+# Misc
+*.DS_Store
+Thumbs.db
+
+# HTTP request files
+*.http

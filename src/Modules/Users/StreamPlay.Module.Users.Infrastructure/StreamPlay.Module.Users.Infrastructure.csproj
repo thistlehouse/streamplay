@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\StreamPlay.Module.Users.Domain\StreamPlay.Module.Users.Domain.csproj" />
+    <ProjectReference Include="..\StreamPlay.Module.Users.Application\StreamPlay.Module.Users.Application.csproj" />
+    <ProjectReference Include="..\..\..\Common\StreamPlay.Common.Infrastructure\StreamPlay.Common.Infrastructure.csproj" />
+    <ProjectReference Include="..\StreamPlay.Users.Presentation\StreamPlay.Users.Presentation.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

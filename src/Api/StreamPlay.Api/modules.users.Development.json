@@ -1,0 +1,11 @@
+{
+  "Users": {
+    "Keycloak": {
+      "AdminUrl": "http://localhost:18080/admin/realms/streamplay/",
+      "TokenUrl": "http://localhost:18080/realms/streamplay/protocol/openid-connect/token",
+      "ConfidentialClientId": "streamplay-confidential-client",
+      "ConfidentialClientSecret": "PzotcrvZRF9BHCKcUxdKfHWlIPECG49k",
+      "PublicClientId": "streamplay-public-client"
+    }
+  }
+}
